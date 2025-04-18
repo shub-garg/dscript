@@ -15,7 +15,7 @@ model = torch.load(args.checkpoint)  --> model = torch.load(args.checkpoint, wei
 3. Command to create embeddings:
 
 ```
-dscript embed --seqs subset_sequences.fasta --outfile train_embeddings.h5
+dscript embed --seqs subset_sequences1.fasta --outfile train_embeddings.h5
 ```
 
 4. Command to train dscript with pre-trained weights:
